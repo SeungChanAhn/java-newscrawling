@@ -17,15 +17,15 @@ public class R2_0323 {
 		int a = (100 - n) + (100 - m);
 		int b = (100 - n) * (100 - m);
 		int c = 100 - a;
-		String sb = String.valueOf(b);
-		String sc = String.valueOf(c);
+		String str_b = String.valueOf(b);
+		String str_c = String.valueOf(c);
 
-		System.out.println(N + " X " + M + " = " + (n * m));
+		System.out.println("¢º " + N + " X " + M + " = " + (n * m) + "\n");
 		System.out.println("100-" + N + "\t\t" + "100-" + M);
-		System.out.println((100 - n) + "\t" + "+" + "\t" + (100 - m));
-		System.out.println((100 - n) + "\t" + "X" + "\t" + (100 - m) +"\n");
+		System.out.println("  " + (100 - n) + "       +       " + (100 - m));
+		System.out.println("  " + (100 - n) + "       +       " + (100 - m) +"\n");
 		System.out.println("First two digits : 100 - " + a + " = " + (100 - a));
-		System.out.println("Last two digits : " + sb);
-		System.out.println("Result : " + sc + sb);
+		System.out.println("Last two digits : " + str_b);
+		System.out.println("Result : " + str_c + str_b);
 	}
 }
